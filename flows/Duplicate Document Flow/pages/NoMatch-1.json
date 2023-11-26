@@ -1,0 +1,35 @@
+{
+  "name": "aa7a251b-65a8-49f0-856d-048e834cf6f5",
+  "displayName": "NoMatch-1",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$request.sentiment.score \u003c 0",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Transfering to an Human Agent" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "9f3076d5-814a-4418-9325-9623c42c84b3"
+  }, {
+    "condition": "$request.sentiment.score \u003e= 0",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get you, could you please say it again. ? " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Previous Page",
+    "name": "deabd20d-e1f5-45c7-b5f4-18d7f2cabc25"
+  } ]
+}

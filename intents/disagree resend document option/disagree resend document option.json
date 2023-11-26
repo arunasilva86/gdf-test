@@ -1,0 +1,10 @@
+{
+  "name": "1a455604-d6af-462e-9566-5479c7ad5e1c",
+  "displayName": "disagree resend document option",
+  "parameters": [ {
+    "id": "document-send-options",
+    "entityType": "@document-send-options"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 4
+}

@@ -1,0 +1,10 @@
+{
+  "name": "923939c0-0e70-450d-adf0-86f7b408970c",
+  "displayName": "prebuilt_components_name_collection_spell_out_name",
+  "parameters": [ {
+    "id": "spell_out_name",
+    "entityType": "@sys.any"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 41
+}

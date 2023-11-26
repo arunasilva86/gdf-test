@@ -1,0 +1,10 @@
+{
+  "name": "e51c17ef-33cd-49a4-b1f2-9d88d25e0198",
+  "displayName": "TestWebHook",
+  "genericWebService": {
+    "uri": "https://us-central1-mytestagentproject.cloudfunctions.net/function-1"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

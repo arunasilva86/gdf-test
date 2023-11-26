@@ -1,0 +1,10 @@
+{
+  "name": "ad00f28d-2e82-4631-b47b-422a7bf7a111",
+  "displayName": "provide email address",
+  "parameters": [ {
+    "id": "email",
+    "entityType": "@sys.email"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 4
+}

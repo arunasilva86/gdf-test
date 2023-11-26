@@ -1,0 +1,40 @@
+{
+  "name": "a52a3d30-11f9-472a-8162-c1aff87a7ee0",
+  "displayName": "provide email Address",
+  "form": {
+    "parameters": [ {
+      "displayName": "email-address",
+      "required": true,
+      "entityType": "@sys.email",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please confirm your email address" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "provide email address",
+    "triggerFulfillment": {
+    
+    },
+    "name": "5e39e3cb-5c85-4f4e-a2e7-901a16d9ffca"
+  }, {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "webhook": "TestWebHook",
+      "tag": "test",
+      "returnPartialResponses": true
+    },
+    "targetPage": "veryfy Email",
+    "name": "3e0a4fbf-02e6-4650-a709-a83fb1d4b520"
+  } ]
+}

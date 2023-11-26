@@ -1,0 +1,39 @@
+{
+  "entities": [ {
+    "value": "@sys.given-name:first-name @sys.last-name:last-name @sys.given-name:middle-name",
+    "synonyms": [ "@sys.given-name:first-name @sys.last-name:last-name @sys.given-name:middle-name" ],
+    "languageCode": "en"
+  }, {
+    "value": "@sys.given-name:first-name @sys.last-name:last-name",
+    "synonyms": [ "@sys.given-name:first-name @sys.last-name:last-name" ],
+    "languageCode": "en"
+  }, {
+    "value": "@sys.given-name:first-name",
+    "synonyms": [ "@sys.given-name:first-name" ],
+    "languageCode": "en"
+  }, {
+    "value": "@sys.given-name:middle-name",
+    "synonyms": [ "@sys.given-name:middle-name" ],
+    "languageCode": "en"
+  }, {
+    "value": "@sys.last-name:last-name @sys.given-name:first-name",
+    "synonyms": [ "@sys.last-name:last-name @sys.given-name:first-name" ],
+    "languageCode": "en"
+  }, {
+    "value": "@sys.person:name @sys.given-name:middle-name",
+    "synonyms": [ "@sys.person:name @sys.given-name:middle-name" ],
+    "languageCode": "en"
+  }, {
+    "value": "@sys.person:name",
+    "synonyms": [ "@sys.person:name" ],
+    "languageCode": "en"
+  }, {
+    "value": "@sys.person:name @sys.given-name:first-name",
+    "synonyms": [ "@sys.person:name @sys.given-name:first-name" ],
+    "languageCode": "en"
+  }, {
+    "value": "@sys.given-name:first-name @sys.given-name:first-name1 @sys.last-name:last-name @sys.given-name:middle-name",
+    "synonyms": [ "@sys.given-name:first-name @sys.given-name:first-name1 @sys.last-name:last-name @sys.given-name:middle-name" ],
+    "languageCode": "en"
+  } ]
+}

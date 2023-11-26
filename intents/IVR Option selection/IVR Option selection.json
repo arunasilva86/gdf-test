@@ -1,0 +1,10 @@
+{
+  "name": "a86e6363-eaf9-43e8-898d-780daae4dfe8",
+  "displayName": "IVR Option selection",
+  "parameters": [ {
+    "id": "ivr-option",
+    "entityType": "@sys.number"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 6
+}

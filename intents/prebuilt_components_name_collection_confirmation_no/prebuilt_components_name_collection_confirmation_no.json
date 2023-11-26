@@ -1,0 +1,10 @@
+{
+  "name": "bc905e97-66ab-4c2b-a7ab-96e14f87e64e",
+  "displayName": "prebuilt_components_name_collection_confirmation_no",
+  "parameters": [ {
+    "id": "user_provided_first_name",
+    "entityType": "@prebuilt_components_name_collection_first_name"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 38
+}

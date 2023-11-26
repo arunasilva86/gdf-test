@@ -1,0 +1,38 @@
+{
+  "name": "9695757f-d7ab-4734-a53d-d4862cd2f9a5",
+  "displayName": "Document Send Options",
+  "form": {
+    "parameters": [ {
+      "displayName": "document-send-option",
+      "required": true,
+      "entityType": "@document-send-options",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Documents can be sent by Post or Email. Which would you prefer?" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "Express Document Sent Option",
+    "triggerFulfillment": {
+    
+    },
+    "name": "85ca1237-0c8d-435a-9047-6b037c2a7c40"
+  }, {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "returnPartialResponses": true
+    },
+    "targetPage": "Confirm document resend option",
+    "name": "509f65e4-f9e9-459b-8425-8b972af825ee"
+  } ]
+}

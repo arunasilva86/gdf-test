@@ -1,0 +1,77 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "post",
+      "parameterId": "document-send-options",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "send them through ",
+      "auto": true
+    }, {
+      "text": "email",
+      "parameterId": "document-send-options",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "please send them through ",
+      "auto": true
+    }, {
+      "text": "post",
+      "parameterId": "document-send-options",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Send me a ",
+      "auto": true
+    }, {
+      "text": "hard copy",
+      "parameterId": "document-send-options",
+      "auto": true
+    }, {
+      "text": " of it",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I need them t be ",
+      "auto": true
+    }, {
+      "text": "posted",
+      "parameterId": "document-send-options",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Email",
+      "parameterId": "document-send-options",
+      "auto": true
+    }, {
+      "text": " would be enough",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Email",
+      "parameterId": "document-send-options",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "email",
+    "synonyms": [ "email", "mail", "soft copy" ],
+    "languageCode": "en"
+  }, {
+    "value": "post",
+    "synonyms": [ "hard copy", "post" ],
+    "languageCode": "en"
+  } ]
+}

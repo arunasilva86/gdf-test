@@ -1,0 +1,39 @@
+{
+  "name": "9d741343-ce18-4b74-a245-feaa896d4016",
+  "displayName": "Confirm document resend option",
+  "form": {
+    "parameters": [ {
+      "displayName": "accept-send-option",
+      "required": true,
+      "entityType": "@accept-send-option",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "   $session.params.document-send-option. Is that correct?" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "Accept resend document option",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "provide email Address",
+    "name": "efb41a90-7f24-481d-9e16-1bb1709b0c19"
+  }, {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "provide email Address",
+    "name": "dc1eedc6-1ed4-4e53-962a-ea12b5b2677a"
+  } ]
+}

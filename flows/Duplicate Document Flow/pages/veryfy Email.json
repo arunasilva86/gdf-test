@@ -1,0 +1,31 @@
+{
+  "name": "6c8938aa-4a6f-472f-bc0a-2c39912a1fff",
+  "displayName": "veryfy Email",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "let me check whether your email, $session.params.email-address is correct or not." ]
+      },
+      "languageCode": "en"
+    } ],
+    "webhook": "TestWebHook",
+    "tag": "test",
+    "returnPartialResponses": true
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "The email you just provided, $session.params.email-address is a valid one." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Any Othere Help Page",
+    "name": "ac140d90-8559-46dd-bead-ba5de1768f26"
+  } ]
+}

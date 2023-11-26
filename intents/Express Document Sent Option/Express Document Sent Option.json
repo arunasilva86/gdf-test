@@ -1,0 +1,10 @@
+{
+  "name": "c58bcdd0-8731-46df-a0ea-73e90e268d1f",
+  "displayName": "Express Document Sent Option",
+  "parameters": [ {
+    "id": "document-send-options",
+    "entityType": "@document-send-options"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 7
+}
